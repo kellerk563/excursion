@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background: black;
+}
+
 header {
     display: flex;
     justify-content: center;
