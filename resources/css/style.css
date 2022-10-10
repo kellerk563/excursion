@@ -8,21 +8,38 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    text-align: center;
 }
 
 h1 {
     color: #fff;
-    font-size: 50px;
+    font-size: 42px;
     font-family: Verdana;
+    margin: 30px 20px;
 }
 
-a {
+.download-link {
+    width: 100%;
+    text-align: center;
+}
+
+.download-link a {
     color: aquamarine;
     font-size: 16px;
 }
 
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
 p {
     color: #fff;
+    font-size: 42px;
+    font-weight: 300;
+    font-family: verdana;
+    width: 100%;
+    text-align: center;
 }
